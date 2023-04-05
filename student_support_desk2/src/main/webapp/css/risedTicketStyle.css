@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+	width: 1170px;
+	margin: auto;
+}
+header {
+	background: linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
+	height: 100vh;
+	width:100%;
+	background-size: 300% 300%;
+	animation: color 12s ease-in-out infinite;
+	
+}
+
+@keyframes color{
+	0%{
+		background-position:0 50%;
+	}
+	50%{
+		background-position:100% 50%;
+	}
+	100%{
+		background-position:0 50%;
+	}
+}
+	
+.menu {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.menu li {
+	display: inline-block;
+}
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.menu li a:hover {
+	background: #fff;
+	color: #333;
+}
+
+
+
+.banner-text {
+	position: absolute;
+	width: 600px;
+	height: 30px;
+	margin: 9% 29%;
+
+}
+.banner-text h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+
+
+	
+.banner-text h1 span {
+	color: black;
+}
+
+
+
+
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: right;
+  width: 95%;
+  background: #f1f1f1;
+  border-radius:15px;
+  ;
+}
+
+
+
+}
+/*resposive*/
+
+@media (max-width:600px) {
+	.wrapper {
+		width: 100%;
+	}
+	.
+	.menu {
+		float: none;
+		margin-top: 0;
+	}
+	.menu li a {
+		padding: 5px;
+		font-size: 11px;
+	}
+	.menu {
+		text-align: center;
+	}
+	.banner-text {
+		width: 100%;
+		height: auto;
+		margin: 15% 0;
+	}
+	.banner-text h1 {
+		font-size: 30px;
+	}
+}

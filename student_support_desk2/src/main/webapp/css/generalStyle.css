@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+	width: 1170px;
+	margin: auto;
+}
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../image/generalBack.jpg);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.menu {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.menu li {
+	display: inline-block;
+}
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.menu li a:hover {
+	background: #fff;
+	color: #333;
+}
+
+
+
+.banner-text {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 9% 29%;
+
+}
+.banner-text h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+
+
+	
+.banner-text h1 span {
+	color: #ddc6ac;
+}
+
+
+
+
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: right;
+  width: 95%;
+  background: #f1f1f1;
+  border-radius:15px;
+  ;
+}
+
+.banner-text button{
+	width:130px;
+	height:80px;
+	border: none;
+	border-radius:12px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 10px 83px;
+	cursor: pointer;
+	background-color:#460187;
+}
+
+
+.banner-text button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.banner-text button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.banner-text button:hover span {
+  padding-right: 25px;
+}
+
+.banner-text button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.banner-text button:hover{
+	background-color:#7602e3;
+	color:black;
+}
+/*resposive*/
+
+@media (max-width:600px) {
+	.wrapper {
+		width: 100%;
+	}
+	.
+	.menu {
+		float: none;
+		margin-top: 0;
+	}
+	.menu li a {
+		padding: 5px;
+		font-size: 11px;
+	}
+	.menu {
+		text-align: center;
+	}
+	.banner-text {
+		width: 100%;
+		height: auto;
+		margin: 15% 0;
+	}
+	.banner-text h1 {
+		font-size: 30px;
+	}
+}
